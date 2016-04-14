@@ -1,14 +1,9 @@
-/*
- * Copyright (c) 2016.  - All Rights Reserved
- * Unauthorized copying of this file, via any medium is strictly prohibited
- * Proprietary and confidential
- * Sarp Akal <sarpakal@gmail.com>
- */
-
 package com.superservis.coilwinding;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.TextView;
@@ -62,4 +57,10 @@ public class MainActivity extends IOIOActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    public void onClickCoilWinding(View view){
+        motorState_target_ = motorState.WIRE_CCW;
+        direction_w_ = false;
+    }
+
 }

@@ -25,6 +25,7 @@
             <Button
                 android:text="@string/wind"
                 android:id="@+id/button_wind"
+                android:onClick="onClickCoilWinding"
                 android:layout_column="0" />
         </TableRow>
 
