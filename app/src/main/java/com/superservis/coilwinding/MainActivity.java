@@ -199,7 +199,7 @@ public class MainActivity extends IOIOActivity {
             stepper_g_StepCue_.clk = Sequencer.Clock.CLK_250K;//.CLK_250K;//.CLK_62K5;//.CLK_16M;//.CLK_2M; /** 2 MHz (0.5us time-base). */
             stepper_g_StepCue_.pulseWidth = 2;
             stepper_g_StepCue_.period = motorGuide_period;
-            stepper_g_DirCue_.value = !direction_g_;
+            stepper_g_DirCue_.value = !direction_g_ ;
             //setTextViewTextOnUi(tvw_guidePeriod, String.valueOf(stepper_g_StepCue_.period));
 
             stepper_w_StepCue_.clk = Sequencer.Clock.CLK_16M;
