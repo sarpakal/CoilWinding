@@ -1,10 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ Copyright (c) 2016.  - All Rights Reserved
-  ~ Unauthorized copying of this file, via any medium is strictly prohibited
-  ~ Proprietary and confidential
-  ~ Sarp Akal <sarpakal@gmail.com>
-  -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.superservis.coilwinding">

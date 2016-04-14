@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">CoilWinding</string>
+    <string name="app_name">Coil Winding</string>
+    <string name="wind">WIND</string>
+    <string name="bobbin">bobbin</string>
 </resources>
